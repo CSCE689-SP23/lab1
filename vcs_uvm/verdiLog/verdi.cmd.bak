@@ -1,0 +1,16 @@
+simSetSimulator "-vcssv" -exec \
+           "/home/faculty/d/davidkebo/davidkebo/csce689/labs/lab/ZeBu_BasicLabs/vcs_uvm/simv" \
+           -args "-ucli +UVM_TESTNAME=dut_test1"
+debImport "-dbdir" \
+          "/home/faculty/d/davidkebo/davidkebo/csce689/labs/lab/ZeBu_BasicLabs/vcs_uvm/simv.daidir"
+debLoadSimResult \
+           /home/faculty/d/davidkebo/davidkebo/csce689/labs/lab/ZeBu_BasicLabs/vcs_uvm/myfsdb.fsdb
+wvCreateWindow
+wvCreateWindow
+verdiDockWidgetSetCurTab -dock windowDock_nWave_2
+wvSelectGroup -win $_nWave2 {G1}
+wvSelectGroup -win $_nWave2 {G1}
+wvSelectGroup -win $_nWave2 {G1}
+verdiDockWidgetSetCurTab -dock widgetDock_<Decl._Tree>
+verdiDockWidgetSetCurTab -dock widgetDock_<Inst._Tree>
+debExit

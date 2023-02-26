@@ -1,0 +1,42 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 81920 bytes [need 80K bytes if disable swap]
+
+used block: 3 [memory(3) file(0)]
+                 [ 8K(2) 64K(1) { total 80K bytes } ]
+overhead: (9538) bytes for (3) blocks [Average: (3179) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 1(times) 7K(bytes) [1K bytes compressed data from file]
+access => 683392(times) 5342M(bytes)
+          [hit ratio: 99.9999%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/faculty/d/davidkebo/davidkebo/csce689/labs/lab/ZeBu_BasicLabs/vcs_uvm/verdiLog)
+used swap file number: (1)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (4)
+closeHead: (1)
+closeTail: (2)
+openCnt: (2)
+fid(3): fd(0) fileName(/home/faculty/d/davidkebo/davidkebo/csce689/labs/lab/ZeBu_BasicLabs/vcs_uvm/simv.daidir/kdb.elab++/work.lib++/uvm_custom_install_verdi_recorder.sv.tdc)
+	size(15822) lastModTime(1676164683) curModTime(1676164683)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(2): fd(24) fileName(/home/faculty/d/davidkebo/davidkebo/csce689/labs/lab/ZeBu_BasicLabs/vcs_uvm/verdiLog/_swap_0001#1997173255#39954)
+	size(0) lastModTime(0) curModTime(1676390508)
+	mode(w+b)	hot(0) cool(1) pos(0)
+fid(1): fd(1073741824) fileName(/home/faculty/d/davidkebo/davidkebo/csce689/labs/lab/ZeBu_BasicLabs/vcs_uvm/simv.daidir/kdb.elab++/work.lib++/tb.sv.tdc)
+	size(2935) lastModTime(1676164683) curModTime(1676164683)
+	mode(rb)	hot(2) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(17cf8740) pre(17cea060) next(0)
+version(200506)
+date(Aug  9 2022 19:18:51)
